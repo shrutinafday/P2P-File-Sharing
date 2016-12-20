@@ -13,7 +13,7 @@ It then should have two threads of control, one acting as a server that uploads 
 (referred to as download neighbor).
 
 So each peer has two neighbors, one of which will get chunks from this peer and the other will send chunks to this peer. 
-There is a direct path from any peer to any other peer. The entire program follows the process given below.
+There is a direct path from any peer to any other peer. The entire program follows the process given below:
  -Start the file owner process, giving a listening port 
  -Start five peer processes, one at a time, giving the file owner’s listening port, the peer’s listening port, 
 and its download neighbor’s listening port. 
